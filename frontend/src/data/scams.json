@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Phishing Email from Your Bank",
+      "category": "Phishing",
+      "description": "A phishing email that looks like it’s from your bank, asking you to verify your account by clicking on a suspicious link.",
+      "upvotes": 45,
+      "downvotes": 3,
+      "image": "/assets/phishing.png",
+      "tips": "Don’t click on links in unsolicited emails and verify the sender’s email address."
+    },
+    {
+      "id": 2,
+      "title": "Fake Investment Opportunity",
+      "category": "Investment",
+      "description": "A scam promising high returns with no risk, usually related to fake cryptocurrency or stock market opportunities.",
+      "upvotes": 60,
+      "downvotes": 5,
+      "image": "/assets/investment.png",
+      "tips": "Be cautious of unsolicited investment offers and never share financial information with unverified sources."
+    },
+    {
+      "id": 3,
+      "title": "Fake Online Love Interest",
+      "category": "Romance",
+      "description": "A scam where a person pretends to fall in love with you online and later asks for money or personal information.",
+      "upvotes": 80,
+      "downvotes": 4,
+      "image": "/assets/romance.png",
+      "tips": "Avoid sending money to someone you've just met online, and look for red flags like requests for financial help."
+    },
+    {
+      "id": 4,
+      "title": "Fake Job Offer for a Remote Position",
+      "category": "Employment",
+      "description": "A fake job offer that promises high-paying remote work but requires you to pay for training or software before you can start.",
+      "upvotes": 50,
+      "downvotes": 6,
+      "image": "/assets/employment.png",
+      "tips": "Legitimate employers never ask for money upfront. Always research companies before accepting offers."
+    },
+    {
+      "id": 5,
+      "title": "Fake Charity Scam",
+      "category": "Charity",
+      "description": "A scammer pretends to be from a charity, especially after a natural disaster, asking for donations to support victims.",
+      "upvotes": 70,
+      "downvotes": 8,
+      "image": "/assets/charity.png",
+      "tips": "Verify the legitimacy of charities through official channels before donating."
+    },
+    {
+      "id": 6,
+      "title": "Tech Support Scareware",
+      "category": "Tech Support",
+      "description": "A pop-up message appears on your screen claiming your computer has a virus and prompts you to call a tech support number.",
+      "upvotes": 85,
+      "downvotes": 10,
+      "image": "/assets/techSupport.png",
+      "tips": "Don’t call the number on the pop-up. Close the window and run a legitimate antivirus program."
+    }
+]

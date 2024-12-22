@@ -1,0 +1,30 @@
+/* In your main CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply global font */
+@layer base {
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prata', serif;
+    font-weight: 400;
+  }
+}
+
+@layer utilities {
+  .slide-down {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .slide-down-open {
+    max-height: 500px;
+  }
+}
+
