@@ -25,7 +25,7 @@ const JoinUs = () => {
             Be part of our growing community. We’re always looking for passionate people to join our team and make a difference.
           </p>
           <a
-            href="/apply"
+            href="/login"
             className="px-6 py-3 bg-red-600 text-white text-lg rounded-md hover:bg-red-700 transition-all"
           >
             Apply Now
