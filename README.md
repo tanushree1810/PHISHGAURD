@@ -95,5 +95,69 @@ Check out the live video demo of the application:
 
 [Watch the Demo on YouTube](https://youtu.be/_6Egs8YK_58)
 
+## 🚀 Run Locally
+
+To run ChakraCart locally, follow these steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/tanushree1810/PHISHGAURD.git
+   cd PHISHGAURD
+
+2. **Install Frontend Dependencies**
+   
+   Navigate to the frontend directory and install the necessary dependencies:
+   ```bash
+   cd frontend
+   npm install
+   npm install react react-dom vite tailwindcss framer-motion react-router-dom axios react-toastify @fortawesome/fontawesome-free
 
 
+3. **Install Backend Dependencies**
+
+    Next, navigate to the backend directory and install the dependencies there:
+    ```bash
+    cd ../backend
+    npm install
+    npm install express mongoose bcrypt cloudinary nodemailer jsonwebtoken handlebars cors axios dotenv
+
+4. **Environment Variables**
+
+    Create .env files in the frontend and backend directories with the following variable names:
+    - **FRONTEND**
+      
+      In the frontend directory, create a .env file with:
+      ```bash
+      VITE_BACKEND_URL
+     
+    - **BACKEND**
+      
+      In the backend directory, create a .env file with:
+      ```bash
+      MONGODB_URI
+      JWT_SECRET
+      CLOUD_NAME
+      CLOUD_API_KEY
+      CLOUD_API_SECRET
+      EMAIL_USER
+      EMAIL_PASS
+    Populate these variables with your own values.
+
+5. **Start the Backend Server**
+
+      In the backend directory, start the backend server with:
+      ```bash
+      node app.js
+
+6. **Start the Frontend**
+   
+      In a new terminal window, navigate to the frontend directory and start the frontend application with:
+      ```bash
+      npm run dev
+
+## 📬 Contact
+
+For more information or collaboration opportunities, feel free to reach out or connect with me:
+
+- [![LinkedIn](https://img.shields.io/badge/-Tanushree%20Kaushik-blue?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/tanushree-kaushik-855601221/)
+- [![GitHub](https://img.shields.io/badge/-tanushree1810-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/tanushree1810)
