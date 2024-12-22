@@ -78,7 +78,7 @@ const AboutUs = () => {
           {/* Call to Action Button */}
           <div className="mt-6">
             <a
-              href="/register"
+              href="/login"
               className="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-6 py-3 rounded-lg shadow-lg transition duration-200"
             >
               Join the Fight Against Scams
